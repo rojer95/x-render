@@ -16,10 +16,11 @@ interface RenderItemProps {
   rootPath?: any[] | undefined;
   path?: any[] | undefined;
   key?: string | undefined;
+  parentPath?: any[] | undefined;
 };
 
 const renderItem = (props: RenderItemProps) => {
-  let { schema, key, path, rootPath } = props;
+  let { schema, key, path, rootPath, parentPath } = props;
 
   // render List
   if (schema.type === 'array' && schema.items?.type === 'object') {
@@ -39,7 +40,7 @@ const renderItem = (props: RenderItemProps) => {
 
   // has child schema
   if (schema?.properties && schema?.widgetType !== 'field') {
-    child = RenderCore({ schema, parentPath: path, rootPath })
+    child = RenderCore({ schema, parentPath: schema?.ignorePath === true ? parentPath : path, rootPath })
     // path = undefined;
   }
 
@@ -63,14 +64,14 @@ const RenderCore = (props: RenderCoreProps): any => {
 
   // render List.item
   if (schema?.items) {
-    return renderItem({ schema: schema.items, path: parentPath, rootPath });
+    return renderItem({ schema: schema.items, path: parentPath, rootPath, parentPath });
   }
 
   // render Objiect | field
   return sortProperties(Object.entries(schema.properties || {})).map(([key, item]) => {
     const path = [...parentPath, key];
 
-    return renderItem({ schema: item, path, key, rootPath });
+    return renderItem({ schema: item, path, key, rootPath, parentPath });
   });
 }
 

@@ -31,6 +31,11 @@ schema 最顶层的一些配置，主要为表单全局的样式。
 - 描述：表单项 label 布局方式
 - 类型：`'row' | 'column' | 'inline'`
 
+### ignorePath
+- 描述：是否忽略当前path
+- 类型：`boolean`
+- 默认：`false`
+
 
 ### column
 - 描述：表单布局，一行应该有几列
