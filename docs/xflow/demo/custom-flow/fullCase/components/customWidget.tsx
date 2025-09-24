@@ -1,4 +1,4 @@
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 import React, { forwardRef, useEffect, useImperativeHandle } from 'react';
 import { firstTagSchema } from '../setting';
 import '../index.less';

@@ -1,4 +1,4 @@
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 import React from 'react';
 
 const Demo = ({ schema, ...otherProps }) => {

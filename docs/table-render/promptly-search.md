@@ -17,7 +17,7 @@ group:
  * background: 'rgb(245,245,245)'
  */
 import React, { useRef } from 'react';
-import TableRender, { TableContext } from 'table-render';
+import TableRender, { TableContext } from '@rojer/table-render';
 
 import { schema } from './static/search';
 import { columns, toolbarRender } from './static/table';
@@ -52,7 +52,7 @@ export default Demo;
  * background: 'rgb(245,245,245)'
  */
 import React, { useRef } from 'react';
-import TableRender from 'table-render';
+import TableRender from '@rojer/table-render';
 
 import { schema } from './static/search';
 import { columns, toolbarRender } from './static/table';
@@ -88,7 +88,7 @@ export default Demo;
  * background: 'rgb(245,245,245)'
  */
 import React, { useRef } from 'react';
-import TableRender from 'table-render';
+import TableRender from '@rojer/table-render';
 
 import { schema } from './static/search';
 import { columns, toolbarRender } from './static/table';

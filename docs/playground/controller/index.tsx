@@ -1,5 +1,5 @@
 import React from 'react';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 import './index.css';
 
 const schema = {

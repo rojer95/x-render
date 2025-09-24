@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useImperativeHandle } from 'react';
-import { useForm } from 'form-render';
+import { useForm } from '@rojer/form-render';
 import { useUpdateEffect } from 'ahooks';
 
 import { useTableStore } from './store';

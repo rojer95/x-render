@@ -22,7 +22,7 @@ group:
  */
 
 import React, { useRef } from 'react';
-import TableRender, { TableContext } from 'table-render';
+import TableRender, { TableContext } from '@rojer/table-render';
 import { schema } from './static/search';
 import { toolbarRender } from './static/table';
 

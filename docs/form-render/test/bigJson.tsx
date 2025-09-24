@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 import { Button, Input } from 'antd';
 import { get } from 'lodash';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from 'antd';
 import { PlusOutlined } from '@ant-design/icons';
-import { ProColumnsType } from 'table-render';
+import { ProColumnsType } from '@rojer/table-render';
 
 export const columns: ProColumnsType = [
   {

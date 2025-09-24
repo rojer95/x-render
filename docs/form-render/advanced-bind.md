@@ -25,7 +25,7 @@ group:
 ```jsx
 import React from 'react';
 import { Button, Alert} from 'antd';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
@@ -76,7 +76,7 @@ export default Demo;
 ```jsx
 import React from 'react';
 import { Button } from 'antd';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
@@ -151,7 +151,7 @@ export default Demo;
 ```jsx
 import React from 'react';
 import { Button } from 'antd';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
@@ -210,7 +210,7 @@ export default Demo;
 ```jsx
 import React from 'react';
 import { Button } from 'antd';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 
 const delay = ms => new Promise(res => setTimeout(res, ms));
 

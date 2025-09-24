@@ -22,7 +22,7 @@ group:
 
 #### 导出实例变更
 ```diff
-- import { Search, Table, useTable, withTable } from 'table-render';
+- import { Search, Table, useTable, withTable } from '@rojer/table-render';
 
 - const Demo = () => {
 -   return (
@@ -35,7 +35,7 @@ group:
 - export default withTable(Demo);
 
 
-+ import TableRender form 'table-render';
++ import TableRender form '@rojer/table-render';
 + const Demo = () => {
 +   return (
 +     <TableRender 
@@ -53,7 +53,7 @@ group:
 #### 废弃 useTable，改用 ref 获取
 tableState、setTable 移除，改用 getState()、setState()
 ```diff
-- import { Search, Table, useTable, withTable } from 'table-render';
+- import { Search, Table, useTable, withTable } from '@rojer/table-render';
 - const { refresh } = useTable();
 
 + import React, { useRef } from 'react';

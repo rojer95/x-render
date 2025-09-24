@@ -1,6 +1,6 @@
 import React from 'react';
 import TypeIt from 'typeit-react';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 import { Button, Card } from 'antd';
 import './index.less';
 

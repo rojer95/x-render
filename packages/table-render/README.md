@@ -55,7 +55,7 @@ npm i table-render --save
  * background: 'rgb(245,245,245)'
  */
 import React from 'react';
-import TableRender from 'table-render';
+import TableRender from '@rojer/table-render';
 import { Button } from 'antd';
 import { InfoCircleOutlined, PlusOutlined } from '@ant-design/icons';
 

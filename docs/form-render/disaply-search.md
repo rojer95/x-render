@@ -13,7 +13,7 @@ group:
 
 ```jsx
 import React from 'react';
-import { useForm, SearchForm } from 'form-render';
+import { useForm, SearchForm } from '@rojer/form-render';
 
 const schema = {
   type: 'object',
@@ -73,7 +73,7 @@ export default () => {
 
 ```jsx
 import React from 'react';
-import FormRender, { useForm, SearchForm } from 'form-render';
+import FormRender, { useForm, SearchForm } from '@rojer/form-render';
 
 const schema = {
   type: 'object',

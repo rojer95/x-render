@@ -1,5 +1,5 @@
 import React from 'react';
-import { SearchForm } from 'form-render';
+import { SearchForm } from '@rojer/form-render';
 import { isFunction, _debounce } from '../../utils';
 import { SearchProps } from '../../types';
 

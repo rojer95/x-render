@@ -2,7 +2,7 @@
  * background: 'rgb(245,245,245)'
  */
 import React, { useRef } from 'react';
-import TableRender, { ProColumnsType } from 'table-render';
+import TableRender, { ProColumnsType } from '@rojer/table-render';
 import { schema } from '../../static/search';
 import { searchApi } from '../../static/request';
 

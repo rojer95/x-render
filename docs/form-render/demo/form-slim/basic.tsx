@@ -3,7 +3,7 @@
  * defaultShowCode: true
  */
 import React from 'react';
-import { FormSlimRender, useForm, Input, Select } from 'form-render';
+import { FormSlimRender, useForm, Input, Select } from '@rojer/form-render';
 
 const schema = {
   type: 'object',

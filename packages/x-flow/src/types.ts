@@ -1,6 +1,6 @@
 import { NodeMouseHandler,Handle, Edge } from '@xyflow/react';
 import { TabPaneProps } from 'antd';
-import { Schema,useForm } from 'form-render';
+import { Schema,useForm } from '@rojer/form-render';
 import { ReactFlow } from '@xyflow/react';
 import React, { ReactNode ,ComponentProps} from 'react';
 

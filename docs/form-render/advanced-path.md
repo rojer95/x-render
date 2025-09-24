@@ -15,7 +15,7 @@ group:
 设置选项：form.setSchemaByPath('radio', { enum: [1, 2, 3] });
 ```jsx
 import { Button } from 'antd';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 import React from 'react';
 
 const Demo = () => {
@@ -59,7 +59,7 @@ export default Demo;
 设置选项：form.setSchemaByPath('x.radio', { enum: [1, 2, 3] });
 ```jsx
 import { Button } from 'antd';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 import React from 'react';
 
 const Demo = () => {
@@ -111,7 +111,7 @@ export default Demo;
 设置选项：form.setSchemaByPath('x[].radio', { enum: [1, 2, 3] });
 ```jsx
 import { Button } from 'antd';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 import React from 'react';
 
 const Demo = () => {
@@ -165,7 +165,7 @@ export default Demo;
 设置选项：form.setSchemaByPath('x.y[].radio', { enum: [1, 2, 3] });
 ```jsx
 import { Button } from 'antd';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 import React from 'react';
 
 const Demo = () => {

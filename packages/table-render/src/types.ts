@@ -1,6 +1,6 @@
 import { TableProps } from 'antd';
 import type { TableColumnType } from 'antd';
-import { FRProps, FormInstance } from 'form-render';
+import { FRProps, FormInstance } from '@rojer/form-render';
 import type { ConfigProviderProps } from 'antd/es/config-provider';
 import type { TableRenderStoreType } from './core/store';
 
@@ -55,6 +55,7 @@ export type ProColumnsType<T extends object = any> = Array<
     valueType?: 'text' | 'money' | 'date' | 'dateTime' | 'code' | 'tag' | 'tags' | 'progress' | 'dateRange' | 'dateTimeRange' | 'image';
     /** 当前列值的枚举 */
     enum?: Record<string, string>;
+    valueTypeProps?: any | ((vlaue: any, record: any) => any);
   }
 >;
 

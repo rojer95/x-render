@@ -41,7 +41,7 @@ npm i form-render --save
  * defaultShowCode: true
  */
 import React from 'react';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 import schema from './schema/simple';
 
 export default () => {
@@ -73,7 +73,7 @@ export default () => {
  * defaultShowCode: true
  */
 import React from 'react';
-import FormRender, { connectForm } from 'form-render';
+import FormRender, { connectForm } from '@rojer/form-render';
 import schema from './schema/simple';
 
 class Demo extends React.Component {

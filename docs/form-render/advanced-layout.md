@@ -24,7 +24,7 @@ group:
 ```jsx
 import React, { useState } from 'react';
 import { Button, Space, Form, Radio } from 'antd';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 import schema from './schema/basic';
 
 export default () => {
@@ -64,7 +64,7 @@ export default () => {
 ```jsx
 import React, { useState } from 'react';
 import { Button, Space, Form, Radio } from 'antd';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 import schema from './schema/basic';
 
 export default () => {
@@ -106,7 +106,7 @@ export default () => {
 ```jsx
 import React, { useState } from 'react';
 import { InputNumber } from 'antd';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 import schema from './schema/basic';
 
 export default () => {
@@ -136,7 +136,7 @@ export default () => {
 ```jsx
 import React, { useState } from 'react';
 import { InputNumber } from 'antd';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 import schema from './schema/cellSpan';
 
 export default () => {
@@ -160,7 +160,7 @@ export default () => {
 ```jsx
 import React, { useState } from 'react';
 import { InputNumber } from 'antd';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 import schema from './schema/span';
 
 export default () => {
@@ -184,7 +184,7 @@ export default () => {
 ```jsx
 import React, { useState } from 'react';
 import { InputNumber } from 'antd';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 import schema from './schema/basic';
 
 export default () => {
@@ -236,7 +236,7 @@ fieldCol: 16
 ```jsx
 import React, { useState } from 'react';
 import { InputNumber, Space } from 'antd';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 import schema from './schema/basic';
 
 export default () => {
@@ -272,7 +272,7 @@ export default () => {
 ```jsx
 import React, { useState } from 'react';
 import { Button, Space, Form, Radio } from 'antd';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 import schema from './schema/simple';
 
 export default () => {
@@ -293,7 +293,7 @@ export default () => {
 ```jsx
 import React, { useState } from 'react';
 import { Button, Space, Form, Radio } from 'antd';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 import schema from './schema/simple';
 
 export default () => {
@@ -326,7 +326,7 @@ export default () => {
 ```jsx
 import React, { useState } from 'react';
 import { Button, Space, Form, Radio } from 'antd';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 import schema from './schema/simple';
 
 export default () => {
@@ -349,7 +349,7 @@ export default () => {
 ```jsx
 import React, { useState } from 'react';
 import { Button, Space, Form, Radio } from 'antd';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 import schema from './schema/simple';
 
 export default () => {

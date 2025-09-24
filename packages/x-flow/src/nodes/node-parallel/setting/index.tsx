@@ -1,4 +1,4 @@
-import FormRender, { Schema, useForm } from 'form-render';
+import FormRender, { Schema, useForm } from '@rojer/form-render';
 import React, { memo, useEffect } from 'react';
 import '../index.less';
 import { safeJsonStringify } from '../../../utils';

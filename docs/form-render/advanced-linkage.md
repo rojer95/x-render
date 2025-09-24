@@ -32,7 +32,7 @@ group:
 #### 示例
 ```jsx
 import React from 'react';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 
 const schema = {
   type: 'object',
@@ -118,7 +118,7 @@ const watch = {
 #### 示例
 ```jsx
 import React from 'react';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 
 const schema = {
   type: 'object',
@@ -233,7 +233,7 @@ form.setValueByPath：指定路径对值进行修改。[path 路径详见](/form
 
 ```jsx
 import React from 'react';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 
 const schema = {
   type: 'object',
@@ -279,7 +279,7 @@ form.setSchemaByPath：指定路径对 schema 进行修改 (不允许通过此 A
 
 ```jsx
 import React, { useEffect } from 'react';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 
 const schema = {
   type: 'object',
@@ -354,7 +354,7 @@ export default () => {
 ```jsx
 import React from 'react';
 import { Input, } from 'antd';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 
 const { TextArea } = Input;
 
@@ -405,7 +405,7 @@ export default () => {
 ```jsx
 import React from 'react';
 import { Input, } from 'antd';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 
 const { TextArea } = Input;
 

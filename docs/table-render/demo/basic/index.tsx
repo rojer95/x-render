@@ -4,7 +4,7 @@
  * background: 'rgb(245,245,245)'
  */
 import React, { useRef } from 'react';
-import TableRender, { TableContext } from 'table-render';
+import TableRender, { TableContext } from '@rojer/table-render';
 import { Button } from 'antd';
 import { schema } from '../../static/search';
 import { columns } from '../../static/table';
@@ -29,7 +29,7 @@ const Demo = () => {
   return (
     <TableRender
       ref={tableRef}
-      search={{ schema }}
+      search={{ layoutAuto: true, schema }}
       request={searchApi}
       columns={columns}
       pagination={{ pageSize: 2 }}

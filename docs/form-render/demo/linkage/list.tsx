@@ -1,6 +1,6 @@
 import React from 'react';
 import { Input } from 'antd';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 
 const schema = {
   type: 'object',

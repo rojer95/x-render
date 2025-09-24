@@ -1,4 +1,4 @@
-import FormRender, { Schema, useForm } from 'form-render';
+import FormRender, { Schema, useForm } from '@rojer/form-render';
 import { produce } from 'immer';
 import { debounce, isFunction } from 'lodash';
 import React, {

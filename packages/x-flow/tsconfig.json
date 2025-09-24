@@ -18,7 +18,7 @@
       "@@/*": [
         "src/.umi/*"
       ],
-      "form-render": [
+      "@rojer/form-render": [
         "packages/form-render/src/*"
       ],
     },

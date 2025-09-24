@@ -1,5 +1,5 @@
 import { Button, Space } from 'antd';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 import React, { forwardRef, useImperativeHandle } from 'react';
 
 export interface AdvancedSettingWidgetProps {

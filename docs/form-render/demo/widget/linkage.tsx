@@ -1,7 +1,7 @@
 import React from 'react';
 import { Input, Space } from 'antd';
-import Form, { useForm } from 'form-render';
-import type { WidgetProps } from 'form-render';
+import Form, { useForm } from '@rojer/form-render';
+import type { WidgetProps } from '@rojer/form-render';
 
 const schema = {
   type: 'object',

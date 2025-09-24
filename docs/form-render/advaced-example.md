@@ -15,7 +15,7 @@ group:
 ```jsx
 import React from 'react';
 import { message } from 'antd';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 import schema from './schema/simple';
 
 export default () => {
@@ -37,7 +37,7 @@ export default () => {
 ```jsx
 import React, { useState, useEffect } from 'react';
 import { Button, Space, message } from 'antd';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 import { fakeApi, delay } from './utils';
 import schema from './schema/simple';
 
@@ -66,7 +66,7 @@ export default () => {
 
 ```jsx
 import React, { useEffect } from 'react';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 const schema = {
   type: 'object',
   properties: {
@@ -105,7 +105,7 @@ export default () => {
 
 ```jsx
 import React, { useEffect } from 'react';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 
 const schema = {
   type: 'object',
@@ -167,7 +167,7 @@ export default () => {
 ```jsx
 import React, { useState, useEffect } from 'react';
 import { Button } from 'antd';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 import { fakeApi, delay } from './utils';
 import schema from './schema/simple';
 import basic from './schema/basic';
@@ -198,7 +198,7 @@ export default Demo;
 ```jsx
 import React from 'react';
 import { Button, message } from 'antd';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 import schema from './schema/simple';
 import { fakeApi } from './utils';
 
@@ -244,7 +244,7 @@ export default () => {
 ```jsx
 import React from 'react';
 import { Button, message, Space } from 'antd';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 import { fakeApi } from './utils';
 
 const schema = {

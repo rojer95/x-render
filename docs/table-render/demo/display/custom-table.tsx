@@ -2,7 +2,7 @@
  * defaultShowCode: true
  */
 import React, { useRef } from 'react';
-import TableRender, { TableContext } from 'table-render';
+import TableRender, { TableContext } from '@rojer/table-render';
 import { Alert } from 'antd';
 
 import { schema } from '../../static/search';

@@ -1,5 +1,5 @@
 import React, { useCallback, useMemo, useState } from "react";
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 import debounce from 'lodash/debounce';
 import Editor from "@monaco-editor/react";
 import Controller from "./controller";

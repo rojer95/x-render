@@ -304,7 +304,7 @@ const schema = {
 
 ```js
 //  /Component/FormRender.js
-import Form from 'form-render';
+import Form from '@rojer/form-render';
 import Cascade from './Cascade';
 import Percentage from './Percentage';
 import MyCheckBox from './MyCheckBox';
@@ -326,7 +326,7 @@ export default props => (
 然后在每个 form 页面统一引入使用
 
 ```js
-import { useForm } from 'form-render';
+import { useForm } from '@rojer/form-render';
 import FormRender from './Component/FormRender';
 const Demo = props => {
   const form = useForm();
@@ -339,7 +339,7 @@ const Demo = props => {
 
 ```ts
 import { FC } from 'react';
-import type { WidgetProps } from 'form-render';
+import type { WidgetProps } from '@rojer/form-render';
 
 const MyWidget: FC<WidgetProps> = (props) => {
     const { value, onChange, addons } = props;
