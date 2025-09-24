@@ -114,13 +114,13 @@ const SearchForm: <RecordType extends object = any>(props: SearchProps<RecordTyp
   }, [isExpand]);
 
   useMount(() => {
+    handleContainerResize();
     if (!collapsed) {
       return;
     }
     if ((!isColumn && fieldNum > (column * 2 - 1)) || (isColumn && fieldNum > (column -1))) {
       setState({ hasCollapse: true });
     }
-    handleContainerResize();
   });
 
   useUpdateEffect(() => {

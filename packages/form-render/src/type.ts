@@ -87,6 +87,7 @@ export interface SchemaBase {
   cellSpan?: number;
   span?: number;
   validateTrigger?: string | string[]
+  ignorePath?: boolean;
   [key: string]: any;
 }
 

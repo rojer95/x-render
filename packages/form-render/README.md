@@ -40,7 +40,7 @@ npm i form-render --save
 ```jsx
 import React from 'react';
 import { Button } from 'antd';
-import FormRender, { connectForm } from 'form-render';
+import FormRender, { connectForm } from '@rojer/form-render';
 
 const schema = {
   type: 'object',
@@ -86,7 +86,7 @@ export default connectForm(Demo);
 ```jsx
 import React from 'react';
 import { Button } from 'antd';
-import FormRender, { useForm } from 'form-render';
+import FormRender, { useForm } from '@rojer/form-render';
 
 const schema = {
   type: 'object',
