@@ -135,7 +135,7 @@ const ColumnSetting: React.FC<Pick<ToolbarActionConfig, 'columnsSettingValue' | 
       trigger={['click']}
       onOpenChange={(open) => setOpen(open)}
       getPopupContainer={(node) => (node.parentNode as HTMLElement) || document.body}
-      dropdownRender={(menu) => {
+      popupRender={(menu) => {
         return (
           <div className={prefix}>
             <div className={`${prefix}-header`}>
