@@ -143,7 +143,7 @@ const ColumnSetting: React.FC<Pick<ToolbarActionConfig, 'columnsSettingValue' | 
                 onClick={() => setOpen(false)}
                 style={{
                   fontSize: 16,
-                  color: '#999',
+                  color: 'var(--ant-color-text-secondary, rgba(0,0,0,0.65))',
                   cursor: 'pointer'
                 }}
               />

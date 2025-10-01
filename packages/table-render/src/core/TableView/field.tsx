@@ -31,7 +31,7 @@ const renderLink = (value: string, item: any, { record, index } : { record: any,
   if (ellipsis) {
     return (
       <Typography.Text
-        style={{ width: '100%', color: '#1890ff', cursor: 'pointer' }}
+        style={{ width: '100%', color: 'var(--ant-color-primary, #1890ff)', cursor: 'pointer' }}
         ellipsis={{ tooltip: value }}
         onClick={() => handleClick()}
       >
@@ -80,7 +80,7 @@ export const renderCode = (code: string) => {
         overflow: 'auto',
         fontSize: '85%',
         lineHeight: 1.45,
-        backgroundColor: '#f6f8fa',
+        backgroundColor: 'var(--ant-color-bg-container, #f6f8fav)',
         borderRadius: 3,
       }}
     >

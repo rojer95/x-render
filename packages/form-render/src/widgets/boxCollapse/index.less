@@ -1,13 +1,13 @@
 @ant-prefix: ant;
 
 .fr-obj-collapse {
-  border-radius: 4px;
-  border: 1px solid #f1f1f1;
+  border-radius: var(--ant-border-radius-sm, 4px);
+  border: 1px solid var(--ant-color-border-secondary, #f0f0f0);
   margin-bottom: 24px;
 
   .collapse-title {
     height: 24px;
-    color: #000000e0;
+    color: var(--ant-color-text, rgba(0, 0, 0, 0.88));
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
@@ -15,7 +15,7 @@
 
   .fr-header-desc {
     word-break: break-all;
-    color: rgba(0, 0, 0, .45);
+    color: var(--ant-color-text-tertiary, rgba(0, 0, 0, 0.45));
     margin-left: 6px;
     font-weight: normal;
   }
@@ -23,12 +23,12 @@
   .header-item-label {
     height: 14px;
     margin-left: 30px;
-    color: black;
+    color: var(--ant-color-text, rgba(0, 0, 0, 0.88));
     font-weight: 600;
     font-size: 14px;
     line-height: 14px;
     span {
-      color: #141414;
+      color: var(--ant-color-text, rgba(0, 0, 0, 0.88));
     }
   }
 
@@ -40,7 +40,7 @@
     display: flex;
     align-items: center !important;
     padding: 16px !important;
-    background-color: #fff;
+    background-color: var(--ant-color-bg-container, #fff);
     border-radius: 4px !important;
   }
 

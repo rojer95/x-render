@@ -77,7 +77,7 @@ const Item: FC<Setting[number] & {
         ref={setActivatorNodeRef}
         style={{
           marginRight: 8,
-          color: '#666',
+          color: 'var(--ant-color-text-tertiary, rgba(0,0,0,0.45))',
           cursor: isOverlay ? 'grabbing' : 'grab'
         }}
       />

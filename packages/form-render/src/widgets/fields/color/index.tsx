@@ -38,7 +38,7 @@ const Color = (props: any) => {
   return (
     <div className='fr-color-picker' style={style}>
       {(disabled || readOnly)? (
-        <span className='rc-color-picker-trigger' style={{ backgroundColor: value || '#ffffff' }} />
+        <span className='rc-color-picker-trigger' style={{ backgroundColor: value || 'var(--ant-color-bg-container, #fff)' }} />
       ): (
         <ColorPicker
           type={schema?.format}
