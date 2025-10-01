@@ -3,6 +3,7 @@ import type { TableColumnType } from 'antd';
 import { FRProps, FormInstance } from '@rojer/form-render';
 import type { ConfigProviderProps } from 'antd/es/config-provider';
 import type { TableRenderStoreType } from './core/store';
+import React from 'react';
 
 export type ColumnsSettingValueType = Array<{
   /** 列的 key */
@@ -48,7 +49,7 @@ export interface TableContext {
 
 export type ProColumnsType<T extends object = any> = Array<
   TableColumnType<T> & {
-    dataIndex?: string;
+    dataIndex?: string | string[];
     /** 是否支持复制 */
     copyable?: boolean;
     /** 值的类型 */
@@ -103,7 +104,7 @@ export interface SearchProps<RecordType> extends Omit<FRProps, 'form'> {
 
 type ApiType<RecordType> =
   | SearchApi<RecordType>
-  | Array<{ api: SearchApi<RecordType>; name: string }>;
+  | Array<{ api: SearchApi<RecordType>; name: React.ReactNode }>;
 
 export type SearchApi<RecordType> = (
   params: Record<string, any> & {

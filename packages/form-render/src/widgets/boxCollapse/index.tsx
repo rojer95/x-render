@@ -49,18 +49,17 @@ const BoxCollapse: FC<IProps> = (props) => {
 
   return (
     <Collapse
-      className='fr-obj-collapse'
+      className="fr-obj-collapse"
       style={style}
       bordered={bordered}
       ghost={ghost}
       activeKey={[activeKey]}
       expandIcon={renderExpandIcon}
       onChange={() => setActiveKey(activeKey ? '' : 'single')}
-    >
-      <Panel key='single' header={collapseHeader} forceRender={true}>
-        {children}
-      </Panel>
-    </Collapse>
+      items={[
+        { key: 'single', forceRender: true, label: collapseHeader, children },
+      ]}
+    />
   );
 }
 
