@@ -23,6 +23,7 @@
 </p>
 
 > 中后台「表单 / 表格 / 图表」开箱即用解决方案
+> 本仓库Fork自 alibaba/x-render ，主要对form-render以及table-render进行优化
 
 ## 优势
 
