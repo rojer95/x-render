@@ -1,6 +1,6 @@
 {
   "name": "@rojer/form-render",
-  "version": "2.5.9-beta2",
+  "version": "2.5.9-beta3",
   "description": "通过 JSON Schema 生成标准 Form，常用于自定义搭建配置界面生成",
   "keywords": [
     "Form",
@@ -13,11 +13,11 @@
   ],
   "homepage": "https://xrender.fun/form-render",
   "bugs": {
-    "url": "https://github.com/alibaba/x-render/issues"
+    "url": "https://github.com/rojer95/x-render/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:alibaba/form-render.git"
+    "url": "git@github.com:rojer95/x-render.git"
   },
   "license": "MIT",
   "contributors": [

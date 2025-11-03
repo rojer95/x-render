@@ -1,6 +1,6 @@
 {
   "name": "@rojer/table-render",
-  "version": "2.5.9-beta2",
+  "version": "2.5.9-beta4",
   "description": "中后台表格解决方案",
   "keywords": [
     "TableRender",
@@ -12,7 +12,11 @@
   ],
   "homepage": "https://xrender.fun/table-render",
   "bugs": {
-    "url": "https://github.com/alibaba/x-render/issues"
+    "url": "https://github.com/rojer95/x-render/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rojer95/x-render.git"
   },
   "license": "MIT",
   "main": "dist/index.js",
@@ -42,7 +46,7 @@
   "dependencies": {
     "@ant-design/icons": "^5.1.4",
     "dayjs": "^1.11.7",
-    "@rojer/form-render": "^2.5.7",
+    "@rojer/form-render": "^2.5.9-beta3",
     "lodash.get": "^4.4.2",
     "lodash.omit": "^4.4.2",
     "lodash.defaults": "^4.2.0",

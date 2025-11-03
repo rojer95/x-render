@@ -227,6 +227,7 @@ const RenderCore: React.FC<TableRenderProps & { tableRef: any }> = props => {
         refresh={refresh}
         getState={getState}
         hidden={hiddenSearch}
+        searchOnMount={autoRequest}
       />
       <ErrorBoundary>
         {renderTable()}
