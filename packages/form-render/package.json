@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "name": "@rojer/form-render",
   "version": "2.5.9-beta3",
+=======
+  "name": "form-render",
+  "version": "2.5.7-beta.1",
+>>>>>>> upstream/master
   "description": "通过 JSON Schema 生成标准 Form，常用于自定义搭建配置界面生成",
   "keywords": [
     "Form",
